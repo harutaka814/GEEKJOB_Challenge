@@ -1,0 +1,13 @@
+
+
+
+OS:Windows 10 Home
+
+CPU:Intel(R) Core(TM) i7-3632QM 2.20GHz
+
+Memory:8GB
+
+HDD:1TB
+
+
+
