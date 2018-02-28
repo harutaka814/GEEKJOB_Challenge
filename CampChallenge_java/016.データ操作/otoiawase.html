@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>質問フォーム</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <form action="/javaWebPractice2/Otoiawase" method="post">
+            質問せフォーム<br><br>
+            お名前を入力してください<br>
+            <input type="text" name="name"><br>
+            質問の種類を選択してください<br>
+            <select name="qtype">
+                <option value="question">プログラミングについて</option>
+                <option value="geekjob">ギークジョブについて</option>
+                <option value="support">アフターサポートについて</option>
+            </select><br><br>
+            
+            <textarea name="otoiawase" rows="4" cols="40"
+            >ここに質問の内容を記入してください。
+            </textarea><br>
+            <input type="submit" value="送信">
+            <input type="reset" value="リセット">
+        </form>    
+    </body>
+</html>
